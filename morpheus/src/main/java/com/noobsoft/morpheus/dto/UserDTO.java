@@ -1,12 +1,19 @@
 package com.noobsoft.morpheus.dto;
 
 
+import java.io.Serializable;
+
 import javax.xml.bind.annotation.XmlRootElement;
 
 
 @XmlRootElement
-public class UserDTO{
+public class UserDTO implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 649963040118085888L;
+
 	/**
 	 * 
 	 */
